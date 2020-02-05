@@ -31,6 +31,7 @@ describe('calculate', () => {
     expect(calculate('15', '5', 'sparky')).toBe(`Sorry, that's not a mathematical operation!`)
   })
 
+  
   it(`allows for the word 'plus' in addition`, () => {
     expect(calculate('3', '5', 'plus')).toBe(8)
     expect(calculate('1', '2', 'plus')).toBe(3)
